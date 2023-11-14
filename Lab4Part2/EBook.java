@@ -1,7 +1,7 @@
 public class EBook extends Book {
 	
 	public EBook(String isbn, String title) {
-		super(isbn, title, 0, 0, 0);
+		super(isbn, title);
 	}
 
 
