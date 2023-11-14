@@ -1,28 +1,10 @@
-public class GroceryItem {
+public class GroceryItem extends Item {
 	String id;
 	String name;
-	double length;
-	double width;
-	double height;
-	
 	public GroceryItem(String id, String name, double length, double width, double height) {
+		super(length, width, height);
 		this.id = id;
 		this.name = name;
-		this.length = length;
-		this.width = width;
-		this.height = height;
-	}
-
-	public double getLength() {
-		return length;
-	}
-
-	public double getHeight() {
-		return height;
-	}
-
-	public double getWidth() {
-		return width;
 	}
 
 	@Override

@@ -4,6 +4,9 @@ public class EBook extends Book {
 		super(isbn, title, 0, 0, 0);
 	}
 
+
+	// following code is not needed
+	/*
 	@Override
 	public double getLength() {
 		throw new RuntimeException();
@@ -16,5 +19,7 @@ public class EBook extends Book {
 	public double getWidth() {
 		throw new RuntimeException();
 	}
+
+	 */
 
 }
