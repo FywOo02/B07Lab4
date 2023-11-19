@@ -2,7 +2,7 @@
  * @Author: Cho
  * @Date: 2023-11-14 6:06 p.m.
  */
-public class PhysicBook extends Book{
+public class PhysicBook extends Book implements PhysicItemCal{
     double length;
     double width;
     double height;
@@ -13,14 +13,17 @@ public class PhysicBook extends Book{
         this.height = height;
     }
 
+    @Override
     public double getLength() {
         return length;
     }
 
+    @Override
     public double getHeight() {
         return height;
     }
 
+    @Override
     public double getWidth() {
         return width;
     }
